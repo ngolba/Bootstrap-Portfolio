@@ -27,6 +27,9 @@
     border-left: 1px solid #ededed;
 }
 
+.navbar-right {
+    min-width: 250px;
+}
 a:link {
     text-decoration: none;
     color: #777777;
@@ -34,4 +37,23 @@ a:link {
 
 a:visited {
     color: #777777;
+}
+
+.aboutBox {
+    max-width: 800px;
+}
+img {
+    float: left;
+    margin-right: 30px;
+}
+
+.footer-copyright {
+    /* height: 60px; */
+    color: #777777;
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5;
+    /* text-align: center;
+    position: fixed;
+    line-height: 60px; */
+    bottom: 0;
 }
