@@ -3,6 +3,7 @@
     border-bottom: 2px solid #ededed;
     padding-bottom: 0;
     padding-top: 0;
+    background-color: white;
 }
 
 .navbar-header {
@@ -41,19 +42,50 @@ a:visited {
 
 .aboutBox {
     max-width: 800px;
+    margin: 30px auto;
 }
-img {
+#selfie {
     float: left;
     margin-right: 30px;
 }
 
 .footer-copyright {
-    /* height: 60px; */
+    height: 60px;
     color: #777777;
     background-color: #666666;
     border-top: 10px solid #4aaaa5;
-    /* text-align: center;
+    text-align: center;
     position: fixed;
-    line-height: 60px; */
     bottom: 0;
+    width: 100%
 }
+
+#copyright {
+    line-height: 45px;
+}
+body {
+    background-image: url("dust_scratches.png");
+}
+
+#submitButton {
+    background-color: #4aaaa5;
+    border-color: #ededed;
+}
+
+#placeholderText { 
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    line-height: 200%;
+    position: relative;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    bottom: 60px;
+    float: left;
+}
+
+/* #portfolioBox {
+    height: fit-content;
+    margin-bottom: 30px;
+} */
